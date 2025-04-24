@@ -16,6 +16,7 @@ namespace StudentForm.Data
         public DbSet<Medium> Mediums { get; set; }
         public DbSet<DistrictsMasters> Districts { get; set; }
         public DbSet<TehsilsMasters> Tehsils { get; set; }
+        public DbSet<Teachers> Teachers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
