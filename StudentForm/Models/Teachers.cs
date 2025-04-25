@@ -14,7 +14,7 @@ namespace StudentForm.Models
 
         public string? ContactNo2 { get; set; }
 
-        [EmailAddress(ErrorMessage = "Invalid email address")]
+        [OptionalEmail]
         public string? Email { get; set; }
 
         [Required(ErrorMessage = "CenterId is required")]
